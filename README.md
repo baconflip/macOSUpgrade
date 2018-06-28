@@ -15,7 +15,7 @@ Requirements:
 * A logged in user
 * macOS Clients on 10.10.5 or later
 * macOS Installer 10.12.4 or later
-* `eraseInstall` option is ONLY supported with macOS Installer 10.13.4+ and client-side macOS 10.13+
+* `eraseInstall` option is ONLY supported with macOS Installer 10.13.4+ and client-side macOS 10.13+ with APFS Volumes
 * Look over the USER VARIABLES and configure as needed.
 
 *This workflow will **not** work if a user is not logged in since the `startosinstall` binary requires a user to be logged in. Tested with macOS 10.13.4 and you will get errors in that the process couldn't establish a connection to the WindowServer.*
